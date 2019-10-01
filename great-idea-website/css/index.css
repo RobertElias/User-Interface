@@ -152,86 +152,129 @@ h5 {
   margin-bottom: 25px;
 }
 /* Your code starts here! */
-h2{
+h2 {
 	font-size: 3.5em;
 	text-align: center;
 	margin: 10px 35px 10px 20px;
-}
-
-.container header nav a{
+  }
+  
+  
+  .container header nav a {
 	text-decoration: none;
 	color: gray;
 	font-size: .90em;
 	padding: 10px;
 	margin: 4px;
 	text-align: center;
-}
-
-.nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 10px;
-  justify-content: space-between;
-}
-
-.content_1 {
+	
+  }
+  .nav li {
+	/* border: 2px solid blue; */
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+	justify-content: space-between;
+  }
+  
+  .content_1 {
+	
 	border-top: 1px solid black;
 	margin: 1%;
-	width: 100%;	
-}
-
-.content_1_box {
-border-top: 1px solid black;
-margin: 1%;
-width: 100%;
-}
-
-.content_3 {
+	width: 100%;
+  }
+  
+  .content_1_box {
+	/* comment out border when done testing */
+	
+	display: inline-block;
+	/* if you want a margin of a certain % for equal-sized
+		  boxes then follow this forumla:
+		  Box Width = (100 - ((margin% * # of boxes) * 2)) / (# of boxes)
+		  Example: Box Width = (100 - (1 * 2)) / 4 = 23%
+		  So if you have 4 equal sized boxes with a margin
+		  of 1% your box width will be 23% for dynamic sizing
+	  */
+	margin: 1%;
+	width: 270px;
+	height: 160px;
+	min-width: 150px;
+  }
+  /* .content_2 {
+	margin: 1%;
+	width: 100%; 
+  } */
+  
+  /* .content_2_box {
+	
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+	width: 48%;
+	min-width: 250px;
+  } */
+  
+  .content_3 {
+   
 	border-top: 1px solid black;
 	margin: 0%;
 	width: 100%;
-}
-
-.content_3_box {
-display: inline-block; 
-	margin: 1%;
-	width: 410px;
-	height: 130px;  
-}
-
-.contact-section {
+	
+  }
+  
+  .content_3_box {
+	/* comment out border when done testing */
+	/* border: 2px solid blue; */
+	display: inline-block;
+	/* if you want a margin of a certain % for equal-sized
+		  boxes then follow this forumla:
+		  Box Width = (100 - ((margin% * # of boxes) * 2)) / (# of boxes)
+		  Example: Box Width = (100 - (1 * 2)) / 4 = 23%
+		  So if you have 4 equal sized boxes with a margin
+		  of 1% your box width will be 23% for dynamic sizing
+	  */
+	  
+	  margin: 1%;
+	  width: 410px;
+	  height: 130px;
+	  /* min-width: 150px; */
+  }
+  
+  
+  
+  .contact-section {
 	border-top: px solid black;
-  	padding: 20px 0;
-  	margin: 1%;
-  	width: 100%;
-}
-.image-div {
+	padding: 20px 0;
+	margin: 1%;
+	width: 100%;
+  }
+  
+  .image-div {
 	background: url('https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true" alt="Image of code snippets across the screen');
 	background-repeat: no-repeat;
 	margin: 0px 0px 0px 200px;
 	margin: 1%;
 	width: 100%;
   }
-
-  address{
+  
+  address {
 	line-height: 1;
 	display: flex;
 	justify-content: left;
 	font-size: 15px;
-	color: black; 
+	color: black;
   }
-
+  
   .footer-content p {
 	text-align: center;
   }
-
+  
   .box {
 	width: 100px;
 	height: 100px;
 	text-align: center;
 	display: inline-block;
   }
-
+  
   .box1 {
 	display: inline-block; 
 	vertical-align: 90px;
@@ -239,11 +282,11 @@ display: inline-block;
 	width: 310px;
 	height: 250px;
   }
-
   .box2{
 	margin: 20px
   }
-
+  
+  
   .button1 {
 	background-color: white;
 	color: black;
