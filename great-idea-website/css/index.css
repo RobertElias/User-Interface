@@ -205,3 +205,22 @@ display: inline-block;
   	margin: 1%;
   	width: 100%;
 }
+.image-div {
+	background: url('https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/mid-page-accent.jpg?raw=true" alt="Image of code snippets across the screen');
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 200px;
+	margin: 1%;
+	width: 100%;
+  }
+
+  address{
+	line-height: 1;
+	display: flex;
+	justify-content: left;
+	font-size: 15px;
+	color: black; 
+  }
+
+  .footer-content p {
+	text-align: center;
+  }
