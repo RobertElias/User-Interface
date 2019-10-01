@@ -199,3 +199,9 @@ display: inline-block;
 	height: 130px;  
 }
 
+.contact-section {
+	border-top: px solid black;
+  	padding: 20px 0;
+  	margin: 1%;
+  	width: 100%;
+}
